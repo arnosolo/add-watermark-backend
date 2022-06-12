@@ -1,7 +1,7 @@
 import os from "os"
 import path from "path"
 
-const PORT = process.env.PORT ?? 9999
+const PORT = process.env.PORT ?? 19999
 const URL_BASE = process.env.URL_BASE ?? `http://localhost:${PORT}`
 const MY_AUTH_HASH = process.env.MY_AUTH_HASH ?? "6387e8d25167423eb5f3da7c084d9a4c"
 const CHUNK_DIR = path.join(os.homedir(), 'upload_chunks')
